@@ -1,0 +1,31 @@
+.MainEmptyBlock{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 150px;
+    .title{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    p{
+        text-align: center;
+    }
+    .ImgBtnEmpty{
+        display: flex;
+        justify-content: center;
+    }
+    .BtnBack{
+        display: flex;
+        justify-content: center;
+        width: 210px;
+        height: 46px;
+        border-radius: 30px;
+        background-color: #282828;
+        border: 1px solid #282828;line-height: 40px;
+        margin: 50px 0 0 20px;
+        a{
+            text-decoration: none;
+            color: #FFFFFF;
+            font-weight: 800;
+        }
+    }
+}

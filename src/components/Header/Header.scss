@@ -1,0 +1,21 @@
+.container{
+    width: 80%;
+    .container-logo{
+         display: flex;
+         justify-content:space-between;
+         margin:0 auto;
+         width: 100%;
+         .logo-name{
+             display: flex;
+             .logo-text{
+                 margin: 0px 0 0 30px;
+                 h5{
+                     line-height: 10px;
+                 }
+                 p{
+                     font-size: 15px;
+                  }
+             }
+         }
+     }
+}

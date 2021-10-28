@@ -1,0 +1,106 @@
+.infoPizza {
+  width: 23%;
+  margin-top: 30px;
+}
+
+.infoPizza h3 {
+  text-align: center;
+}
+
+.infoPizza img {
+  padding-left: 30px;
+}
+
+.infoPizza .about .block {
+  width: 280px;
+  height: 85px;
+  border-radius: 5px;
+  background-color: #F3F3F3;
+}
+
+.infoPizza .about .basic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.infoPizza .about .basic p {
+  padding: 10px 0 0 30px;
+}
+
+.infoPizza .about .basic .activeLink {
+  background-color: #ffffff;
+  margin: 10px 10px 0 -20px;
+  width: 100px;
+  height: 30px;
+  line-height: 10px;
+  border-radius: 5px;
+}
+
+.infoPizza .about .size {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.infoPizza .about .size p {
+  padding: 0px 15px 0 12px;
+  margin-left: 15px;
+}
+
+.infoPizza .about .size .activeLink {
+  background-color: #ffffff;
+  margin: 0px 10px 0 0px;
+  width: 70px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 5px;
+}
+
+.infoPizza .about .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.infoPizza .about .price p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.infoPizza .about .price .ButtonWrap {
+  border: 2px solid #EB5A1E;
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 132px;
+  height: 40px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.infoPizza .about .price .ButtonWrap .ButtonAdd {
+  text-decoration: none;
+  color: #EB5A1E;
+  outline: none;
+  font-weight: bolder;
+  display: inline-block;
+  line-height: 32px;
+}
+
+.infoPizza .about .price .ButtonWrap .ButtonAdd:hover {
+  background-color: #EB5A1E;
+  color: #ffffff;
+  width: 130px;
+  height: 39px;
+  border-radius: 20px;
+  outline: none;
+  display: inline-block;
+}
+/*# sourceMappingURL=PizzaCheeseburger.css.map */

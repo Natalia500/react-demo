@@ -1,0 +1,46 @@
+.MainEmptyBlock {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.MainEmptyBlock .title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.MainEmptyBlock p {
+  text-align: center;
+}
+
+.MainEmptyBlock .ImgBtnEmpty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.MainEmptyBlock .BtnBack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 210px;
+  height: 46px;
+  border-radius: 30px;
+  background-color: #282828;
+  border: 1px solid #282828;
+  line-height: 40px;
+  margin: 50px 0 0 20px;
+}
+
+.MainEmptyBlock .BtnBack a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 800;
+}
+/*# sourceMappingURL=Empty.css.map */

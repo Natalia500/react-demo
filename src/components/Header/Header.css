@@ -1,0 +1,33 @@
+.container {
+  width: 80%;
+}
+
+.container .container-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container .container-logo .logo-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .container-logo .logo-name .logo-text {
+  margin: 0px 0 0 30px;
+}
+
+.container .container-logo .logo-name .logo-text h5 {
+  line-height: 10px;
+}
+
+.container .container-logo .logo-name .logo-text p {
+  font-size: 15px;
+}
+/*# sourceMappingURL=Header.css.map */

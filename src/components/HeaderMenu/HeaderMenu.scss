@@ -1,0 +1,36 @@
+.ContainerMenu {
+    display: flex;
+    justify-content: space-between;
+    nav {
+        ul {
+            display: flex;
+            li {
+                list-style-type: none;
+                padding: 10px 40px 10px 0;
+                margin-left: -20px;
+                .activeLink {
+                    background-color: #282828;
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+                a {
+                    text-decoration: none;
+                    color: #000000;
+                    background-color: #F9F9F9;
+                    padding: 8px 25px;
+                    border-radius: 30px;
+                    font-weight: 700;
+                    }
+                }
+            }
+        }
+    .seldiv {
+        font-size: 15px;
+        color: #000000;
+        font-weight: 800;
+        label {
+            margin-right: 20px;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.ContainerMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ContainerMenu nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ContainerMenu nav ul li {
+  list-style-type: none;
+  padding: 10px 40px 10px 0;
+  margin-left: -20px;
+}
+
+.ContainerMenu nav ul li .activeLink {
+  background-color: #282828;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.ContainerMenu nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  background-color: #F9F9F9;
+  padding: 8px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.ContainerMenu .seldiv {
+  font-size: 15px;
+  color: #000000;
+  font-weight: 800;
+}
+
+.ContainerMenu .seldiv label {
+  margin-right: 20px;
+}
+/*# sourceMappingURL=HeaderMenu.css.map */
